@@ -14,7 +14,7 @@ before_action :basic_authenticate, if: :application_flagged_for_guarding?
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'env_guard'
+gem 'env_guard', github: 'dimroc/env_guard'
 ```
 
 And then execute:
